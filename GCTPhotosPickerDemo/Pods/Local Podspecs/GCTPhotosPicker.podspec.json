@@ -29,5 +29,7 @@
   "requires_arc": true,
   "public_header_files": "GCTPhotosPicker/Classes/*.h",
   "source_files": "GCTPhotosPicker/Classes/*.{h,m}",
-  "resources": "GCTPhotosPicker/Resource/*.bundle"
+  "resource_bundles": {
+    "GCTPhotosPickerAsset": "GCTPhotosPicker/Resource/*.xcassets"
+  }
 }

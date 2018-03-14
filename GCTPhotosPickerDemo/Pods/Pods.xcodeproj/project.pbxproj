@@ -7,100 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		311AD7B4D0497E0524A306C7FEAF7C4F /* GCTPhotosPickerAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AE0AD3FA13270BB5F9D351B0A125D /* GCTPhotosPickerAlbum.m */; };
-		591F5F5B2630CEFA9D44872AFB6AE5DF /* GCTPhotosPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328A0788DC3C31C4510597004EE01045 /* GCTPhotosPickerViewController.m */; };
-		5C4A88768E57070F13FAD45B1B16066B /* GCTPhotosPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A90D792B6CA8B821D63396D7DEA545 /* GCTPhotosPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64A6ECDAD5D4B6F208460056688BF402 /* GCTPhotosPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6CA766A0A2DDB98146C60B4C12D145 /* GCTPhotosPicker-dummy.m */; };
-		67C60C824BF9C69473EEFA98861CBC24 /* GCTPhotosPickerCachingImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 254D29C0D5D9A1F0803C6F09BCC42D87 /* GCTPhotosPickerCachingImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7862BC995ABF8AD73463205AD285FBFD /* GCTPhotosPickerAlbumsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5FA8FA8AF057AF64152AC7D7EFD29E /* GCTPhotosPickerAlbumsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C7D499A49DDC96A023DF4D5F4A64B49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02A1087A37D5FE3535EBFB6C0D5334B /* UIKit.framework */; };
-		7E78D1084C0C2E2EAB0CA3979A70FBDE /* GCTPhotosPickerActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A665A0AE849C4C5557EF11E28E1342A1 /* GCTPhotosPickerActivityView.m */; };
-		7E7D0EB781127D53939E43266601F7E7 /* GCTPhotosPickerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CE96B1294AD8788E6F051AA7377AAA /* GCTPhotosPickerAppearance.m */; };
+		0731C494071029916E2FD4816BC981A6 /* GCTPhotosPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4258FE8ED0403C006BF77CF84A8DF50E /* GCTPhotosPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A503C2A91DB5C85B8801D1AC2ECF91A /* GCTPhotosPickerCachingImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDD0988A5162BE8DE24FA9939E695AE /* GCTPhotosPickerCachingImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DFF4F6D7991B051B307C0CC88DBA761 /* GCTPhotosPicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F35D8649ADBFAB36C1F62200D594F8 /* GCTPhotosPicker.xcassets */; };
+		330154182FA94B4C591D25582B867DDC /* GCTPhotosPickerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE354CC852470B74FC873B06CCC153 /* GCTPhotosPickerAppearance.m */; };
+		497879F0713C30F14811EAAEDB1F2CAE /* GCTPhotosPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22722DC0BC6DCBA4DB37F276F3B227 /* GCTPhotosPickerViewController.m */; };
+		4E434D5FEB329965309A2AB5D8753179 /* GCTPhotosPickerAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2625621DA7DFBA44EEF435665DC7708C /* GCTPhotosPickerAlbumsCell.m */; };
+		57E773613C45423734831E76CCA8E4FD /* GCTPhotosPickerAlbumsView.h in Headers */ = {isa = PBXBuildFile; fileRef = A49268B71849E183AA4B1701CF6C260F /* GCTPhotosPickerAlbumsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65BBDD439C4F11EE65230D68AAA3408B /* GCTPhotosPickerActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1730E9957D20FEB629681AF5519ED /* GCTPhotosPickerActivityView.m */; };
+		6DFBCD52FA36CAD1D04B166D84698385 /* GCTPhotosPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F609D1B679183F982A483E418FD33880 /* GCTPhotosPicker-dummy.m */; };
+		8B998C5B6F1F01CC016F9D485BDD1A40 /* GCTPhotosPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB55CFEF6EBD435A1F253FB42913F1F /* GCTPhotosPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91057D778D8675C00C4BDFCE59715F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AF6E9E67D620E639E17F9B0A8B56EF /* Foundation.framework */; };
-		98FB3CC475B27520AD9EF0A3E12135F8 /* GCTPhotosPickerAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 68588C85B048D0CA1F0AD48F56A8AD30 /* GCTPhotosPickerAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9ACFB6B479FB8490923D762C59782409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AF6E9E67D620E639E17F9B0A8B56EF /* Foundation.framework */; };
-		A4B9C0655FA6EDF345AFAA9A6F280DB5 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26A7C6C07A9AA6DA68F130C37E06956 /* Photos.framework */; };
+		917A74740213CB368132E5BFE986C692 /* GCTPhotosPickerActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6289D00A4E414BF596001BE7A0C14D61 /* GCTPhotosPickerActivityView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999E95B00630A2A4297B1F794F769890 /* GCTPhotosPickerAlbumsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC56994B08AC45BF9D1B67E72C07FBA /* GCTPhotosPickerAlbumsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0868C0F875A85F1F121DA2506DE43D4 /* Pods-GCTPhotosPickerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E832B81959322A4797D32AA1F58EDC3A /* Pods-GCTPhotosPickerDemo-dummy.m */; };
-		B3D3AD6F5182E937102A97543AAA8CAE /* GCTPhotosPickerActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFBB8D5CB3B8966E30A1AD1EB4C79CB /* GCTPhotosPickerActivityView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B481C643D0C30AC82B7FFC3AC90DC9F4 /* GCTPhotosPickerItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B5843D4A909E71B067C57DC46B7A6C /* GCTPhotosPickerItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1610DEE1AACF7CBF0E86784342C2B40 /* GCTPhotosPickerItemCell_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9DD4C731F31C0F6D18A6F493999746 /* GCTPhotosPickerItemCell_Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CC4ECC8FB69ED0C1C68C32CEF6A804 /* GCTPhotosPickerItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C150076A5808FA58BD80DDCCD19CFA /* GCTPhotosPickerItemCell.m */; };
 		BEBFDAE121E057A11A7817A9F89B0122 /* Pods-GCTPhotosPickerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749C1AA538DC078399E643AB1376A467 /* Pods-GCTPhotosPickerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D3A909F1DBE7B38141BAF6BE2AB3BB /* GCTPhotosPickerAlbumsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 016FFF2715AC74328B8F53B9390FF2E0 /* GCTPhotosPickerAlbumsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9A92AB6D0E4C3A414070B9FEB7285F0 /* GCTPhotosPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B074167F983719077451B762D4CC7E /* GCTPhotosPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBDD75890E7CAF01742B0D5DB41239C4 /* GCTPhotosPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 864DD0B789C74B68E0BB65F36AE36716 /* GCTPhotosPicker.bundle */; };
-		D612D0487500A0020442467F7E778214 /* GCTPhotosPickerCachingImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13360B1639273E29D23B1E3C12882D58 /* GCTPhotosPickerCachingImageManager.m */; };
-		D6F66FECDA7CCEB2D11B00D2BA681922 /* GCTPhotosPickerAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0773352F95F4F4458058AF0C45A5F8 /* GCTPhotosPickerAlbumsCell.m */; };
-		E134631F11C218D12868552399D99539 /* GCTPhotosPickerItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 420BACF23D3DCF88785D647559A39C2C /* GCTPhotosPickerItemCell.m */; };
-		EBB9E4B7EE9F1CB83AE04E21663FD66F /* GCTPhotosPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1927A57C804FD29F4543FE37EF61A6EB /* GCTPhotosPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2345F4E9E7F4055C1C4CBC6B6FA9924 /* GCTPhotosPickerAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = E92B68AAB07D46FE5C522C39A33C01F9 /* GCTPhotosPickerAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC14086BB04708C0442BE9A0DB43611E /* GCTPhotosPickerItemCell_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E128A8262D6635B082185DA8ECFC3B /* GCTPhotosPickerItemCell_Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FECEFBF126B0A71FA8537FDBEF04415E /* GCTPhotosPickerAlbumsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E5EABE76E55BCEBF49D1F3840DB96 /* GCTPhotosPickerAlbumsView.m */; };
+		C330571C0C3A0E9885E7CF524F797A48 /* GCTPhotosPickerAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 3101A62F601C89BE2B249FBBAD15D5CE /* GCTPhotosPickerAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B5EA427AC57A535D8347A5E2AF52A1 /* GCTPhotosPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5CE8D39E0AD9B520E75E2B3F619182 /* GCTPhotosPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDDD7449213E4BEE357D4EF7A87EC2D /* GCTPhotosPickerAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2929164A06E21882E8FEC40FDFE22B21 /* GCTPhotosPickerAlbum.m */; };
+		D09FB3A980144E54ED90E545F79445BA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26A7C6C07A9AA6DA68F130C37E06956 /* Photos.framework */; };
+		D38A1BA293A444986321AC341881583F /* GCTPhotosPickerItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B40F9D0EABC58CBA60CB5BB9047FAB21 /* GCTPhotosPickerItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6AC2A99A0A17D306065E90BA530E386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AF6E9E67D620E639E17F9B0A8B56EF /* Foundation.framework */; };
+		D86EE5717D7EA13A2F895FE8666F1D43 /* GCTPhotosPickerAlbumsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8AC561C5D747725E51039BE2F3BA4 /* GCTPhotosPickerAlbumsView.m */; };
+		DB4CE5B3B87744ACAC90D99BE106B97C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02A1087A37D5FE3535EBFB6C0D5334B /* UIKit.framework */; };
+		E8F4CB65DB8B6CEAA1715220D8A6F968 /* GCTPhotosPickerAsset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E04F34C7A7FBB50DB1131F50B0210EDB /* GCTPhotosPickerAsset.bundle */; };
+		FBDEFDF4D4D33DA33A5772B3A132B87A /* GCTPhotosPickerCachingImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4059A921D0AAC52CD19E9627AD998A4B /* GCTPhotosPickerCachingImageManager.m */; };
+		FD066CAA8E5F31092983DFC76958699E /* GCTPhotosPickerAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 03748262DAC7CEE4B416ABD84B3A2987 /* GCTPhotosPickerAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1189CEC4893C17B4AF7542AE82ACFEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D66E0A848262EBE074CA4985E6ECE8D;
+			remoteInfo = "GCTPhotosPicker-GCTPhotosPickerAsset";
+		};
 		A3D53BFCAE9966BB76980C5CDB05797F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DDE617B87464C3636821234B84F4C602;
+			remoteGlobalIDString = 86C84105F94C37C8E39917AD7FB6F868;
 			remoteInfo = GCTPhotosPicker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008BFFAF708A476C7638E825F3CB8143 /* GCTPhotosPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GCTPhotosPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		016FFF2715AC74328B8F53B9390FF2E0 /* GCTPhotosPickerAlbumsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAlbumsCell.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsCell.h; sourceTree = "<group>"; };
-		08CE96B1294AD8788E6F051AA7377AAA /* GCTPhotosPickerAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAppearance.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAppearance.m; sourceTree = "<group>"; };
+		03748262DAC7CEE4B416ABD84B3A2987 /* GCTPhotosPickerAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAppearance.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAppearance.h; sourceTree = "<group>"; };
+		07C150076A5808FA58BD80DDCCD19CFA /* GCTPhotosPickerItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerItemCell.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerItemCell.m; sourceTree = "<group>"; };
 		1122F4E43B3FB7A49C9BAB2D8611563C /* Pods-GCTPhotosPickerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTPhotosPickerDemo-resources.sh"; sourceTree = "<group>"; };
-		13360B1639273E29D23B1E3C12882D58 /* GCTPhotosPickerCachingImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerCachingImageManager.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerCachingImageManager.m; sourceTree = "<group>"; };
-		1927A57C804FD29F4543FE37EF61A6EB /* GCTPhotosPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPicker.h; path = GCTPhotosPicker/Classes/GCTPhotosPicker.h; sourceTree = "<group>"; };
+		18302A548F5B0E056E3689B9FC6C67D3 /* GCTPhotosPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCTPhotosPicker.modulemap; sourceTree = "<group>"; };
 		19921B888E3560E22B05C7282AB6E7CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B72604B35AA9B6CB26DFB56AB935285 /* GCTPhotosPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCTPhotosPicker.framework; path = GCTPhotosPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C8E5EABE76E55BCEBF49D1F3840DB96 /* GCTPhotosPickerAlbumsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAlbumsView.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsView.m; sourceTree = "<group>"; };
+		1E0E9443E083A2BC84A279505A2A80DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1FB55CFEF6EBD435A1F253FB42913F1F /* GCTPhotosPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPicker.h; path = GCTPhotosPicker/Classes/GCTPhotosPicker.h; sourceTree = "<group>"; };
 		21472CFCF2B51DE06DAABE51A07E0D2D /* Pods-GCTPhotosPickerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCTPhotosPickerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		254D29C0D5D9A1F0803C6F09BCC42D87 /* GCTPhotosPickerCachingImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerCachingImageManager.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerCachingImageManager.h; sourceTree = "<group>"; };
+		2625621DA7DFBA44EEF435665DC7708C /* GCTPhotosPickerAlbumsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAlbumsCell.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsCell.m; sourceTree = "<group>"; };
+		2929164A06E21882E8FEC40FDFE22B21 /* GCTPhotosPickerAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAlbum.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbum.m; sourceTree = "<group>"; };
 		2B54DEC09A9F24D8A6E403515976AA9B /* Pods-GCTPhotosPickerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTPhotosPickerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		328A0788DC3C31C4510597004EE01045 /* GCTPhotosPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerViewController.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerViewController.m; sourceTree = "<group>"; };
-		34E128A8262D6635B082185DA8ECFC3B /* GCTPhotosPickerItemCell_Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerItemCell_Extension.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerItemCell_Extension.h; sourceTree = "<group>"; };
-		40B074167F983719077451B762D4CC7E /* GCTPhotosPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerViewController.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerViewController.h; sourceTree = "<group>"; };
-		41D7C065F456764B50B4F1EDD3B9CB85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		420BACF23D3DCF88785D647559A39C2C /* GCTPhotosPickerItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerItemCell.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerItemCell.m; sourceTree = "<group>"; };
-		46A90D792B6CA8B821D63396D7DEA545 /* GCTPhotosPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTPhotosPicker-umbrella.h"; sourceTree = "<group>"; };
-		4A5FA8FA8AF057AF64152AC7D7EFD29E /* GCTPhotosPickerAlbumsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAlbumsView.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsView.h; sourceTree = "<group>"; };
-		68588C85B048D0CA1F0AD48F56A8AD30 /* GCTPhotosPickerAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAppearance.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAppearance.h; sourceTree = "<group>"; };
-		69BC1B18B7E523C8155DD084552D581A /* GCTPhotosPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCTPhotosPicker.xcconfig; sourceTree = "<group>"; };
+		3101A62F601C89BE2B249FBBAD15D5CE /* GCTPhotosPickerAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAlbum.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbum.h; sourceTree = "<group>"; };
+		3C4C04AF1613E7B5A7041B29E06603C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4059A921D0AAC52CD19E9627AD998A4B /* GCTPhotosPickerCachingImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerCachingImageManager.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerCachingImageManager.m; sourceTree = "<group>"; };
+		4258FE8ED0403C006BF77CF84A8DF50E /* GCTPhotosPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerViewController.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerViewController.h; sourceTree = "<group>"; };
+		4E9DD4C731F31C0F6D18A6F493999746 /* GCTPhotosPickerItemCell_Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerItemCell_Extension.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerItemCell_Extension.h; sourceTree = "<group>"; };
+		6289D00A4E414BF596001BE7A0C14D61 /* GCTPhotosPickerActivityView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerActivityView.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerActivityView.h; sourceTree = "<group>"; };
 		6B53C9EE4F89EA851F9399D77FCED822 /* Pods-GCTPhotosPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTPhotosPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		6E1D545C7C34A2A159A9F478C5285E8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6FFBB8D5CB3B8966E30A1AD1EB4C79CB /* GCTPhotosPickerActivityView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerActivityView.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerActivityView.h; sourceTree = "<group>"; };
+		6BA1730E9957D20FEB629681AF5519ED /* GCTPhotosPickerActivityView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerActivityView.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerActivityView.m; sourceTree = "<group>"; };
 		749C1AA538DC078399E643AB1376A467 /* Pods-GCTPhotosPickerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCTPhotosPickerDemo-umbrella.h"; sourceTree = "<group>"; };
-		751377E1FAE26D3AF1C8276AB89FCD0A /* GCTPhotosPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCTPhotosPicker.modulemap; sourceTree = "<group>"; };
-		7B0773352F95F4F4458058AF0C45A5F8 /* GCTPhotosPickerAlbumsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAlbumsCell.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsCell.m; sourceTree = "<group>"; };
-		7F66D68B6954EB03C65B111CCC4BEAA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		864DD0B789C74B68E0BB65F36AE36716 /* GCTPhotosPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GCTPhotosPicker.bundle; path = GCTPhotosPicker/Resource/GCTPhotosPicker.bundle; sourceTree = "<group>"; };
+		7B4A745C1C66A7C41FE211AAC3420C3A /* GCTPhotosPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCTPhotosPicker.framework; path = GCTPhotosPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C11B6938774A94837A4693189632D /* Pods_GCTPhotosPickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCTPhotosPickerDemo.framework; path = "Pods-GCTPhotosPickerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95AF6E9E67D620E639E17F9B0A8B56EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95F35D8649ADBFAB36C1F62200D594F8 /* GCTPhotosPicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = GCTPhotosPicker.xcassets; path = GCTPhotosPicker/Resource/GCTPhotosPicker.xcassets; sourceTree = "<group>"; };
+		9C22722DC0BC6DCBA4DB37F276F3B227 /* GCTPhotosPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerViewController.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerViewController.m; sourceTree = "<group>"; };
 		A02A1087A37D5FE3535EBFB6C0D5334B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A091C308CDA8C0DE19ABD8E2E165DA5C /* Pods-GCTPhotosPickerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCTPhotosPickerDemo.modulemap"; sourceTree = "<group>"; };
-		A665A0AE849C4C5557EF11E28E1342A1 /* GCTPhotosPickerActivityView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerActivityView.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerActivityView.m; sourceTree = "<group>"; };
+		A49268B71849E183AA4B1701CF6C260F /* GCTPhotosPickerAlbumsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAlbumsView.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsView.h; sourceTree = "<group>"; };
+		A79F429FD0531F956FAB3402C4713903 /* GCTPhotosPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTPhotosPicker-prefix.pch"; sourceTree = "<group>"; };
+		B40F9D0EABC58CBA60CB5BB9047FAB21 /* GCTPhotosPickerItemCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerItemCell.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerItemCell.h; sourceTree = "<group>"; };
 		B714114B74946A9BB9ECB5E4EA2890C0 /* Pods-GCTPhotosPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTPhotosPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		BA6CA766A0A2DDB98146C60B4C12D145 /* GCTPhotosPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCTPhotosPicker-dummy.m"; sourceTree = "<group>"; };
+		BDBF7B7461E5E5B6B243586048E80435 /* ResourceBundle-GCTPhotosPickerAsset-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GCTPhotosPickerAsset-Info.plist"; sourceTree = "<group>"; };
 		BDCA75AE1EFDEFED8756D57183988976 /* Pods-GCTPhotosPickerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCTPhotosPickerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF8AE0AD3FA13270BB5F9D351B0A125D /* GCTPhotosPickerAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAlbum.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbum.m; sourceTree = "<group>"; };
-		C9C78670DF04A03ADC2812AEC49AA75C /* Pods_GCTPhotosPickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCTPhotosPickerDemo.framework; path = "Pods-GCTPhotosPickerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC56994B08AC45BF9D1B67E72C07FBA /* GCTPhotosPickerAlbumsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAlbumsCell.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsCell.h; sourceTree = "<group>"; };
+		C38063D01B4561522200F8EF5BDFF83C /* GCTPhotosPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCTPhotosPicker.xcconfig; sourceTree = "<group>"; };
+		C6EE354CC852470B74FC873B06CCC153 /* GCTPhotosPickerAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAppearance.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAppearance.m; sourceTree = "<group>"; };
+		CA5CE8D39E0AD9B520E75E2B3F619182 /* GCTPhotosPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTPhotosPicker-umbrella.h"; sourceTree = "<group>"; };
+		CDDD0988A5162BE8DE24FA9939E695AE /* GCTPhotosPickerCachingImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerCachingImageManager.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerCachingImageManager.h; sourceTree = "<group>"; };
 		D26A7C6C07A9AA6DA68F130C37E06956 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		D291FECF7363328D3161CB0FD0E2A490 /* GCTPhotosPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTPhotosPicker-prefix.pch"; sourceTree = "<group>"; };
-		D3B5843D4A909E71B067C57DC46B7A6C /* GCTPhotosPickerItemCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerItemCell.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerItemCell.h; sourceTree = "<group>"; };
+		E04F34C7A7FBB50DB1131F50B0210EDB /* GCTPhotosPickerAsset.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GCTPhotosPickerAsset.bundle; path = "GCTPhotosPicker-GCTPhotosPickerAsset.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E832B81959322A4797D32AA1F58EDC3A /* Pods-GCTPhotosPickerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCTPhotosPickerDemo-dummy.m"; sourceTree = "<group>"; };
-		E92B68AAB07D46FE5C522C39A33C01F9 /* GCTPhotosPickerAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTPhotosPickerAlbum.h; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbum.h; sourceTree = "<group>"; };
+		EBA7607AF8FC83166D9890B22A684236 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F609D1B679183F982A483E418FD33880 /* GCTPhotosPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCTPhotosPicker-dummy.m"; sourceTree = "<group>"; };
+		F66FF83177987BA049E7D7FD5988174E /* GCTPhotosPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GCTPhotosPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7A8AC561C5D747725E51039BE2F3BA4 /* GCTPhotosPickerAlbumsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTPhotosPickerAlbumsView.m; path = GCTPhotosPicker/Classes/GCTPhotosPickerAlbumsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		072D46459D96CCE15736FDA3DDA55B1B /* Frameworks */ = {
+		19C5EE3C61788E49B0F063C2265D9E1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACFB6B479FB8490923D762C59782409 /* Foundation.framework in Frameworks */,
-				A4B9C0655FA6EDF345AFAA9A6F280DB5 /* Photos.framework in Frameworks */,
-				7C7D499A49DDC96A023DF4D5F4A64B49 /* UIKit.framework in Frameworks */,
+				D6AC2A99A0A17D306065E90BA530E386 /* Foundation.framework in Frameworks */,
+				D09FB3A980144E54ED90E545F79445BA /* Photos.framework in Frameworks */,
+				DB4CE5B3B87744ACAC90D99BE106B97C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0654026107C91DAB9235438DB1F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +132,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA9775F347128F6FC3B750EBD7215D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95F35D8649ADBFAB36C1F62200D594F8 /* GCTPhotosPicker.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,14 +148,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5992D17802EA38288B0C53B800A0906A /* Pod */ = {
+		22C0BA1B2F74D51550BCE5F99A8A2340 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				008BFFAF708A476C7638E825F3CB8143 /* GCTPhotosPicker.podspec */,
-				7F66D68B6954EB03C65B111CCC4BEAA9 /* LICENSE */,
-				6E1D545C7C34A2A159A9F478C5285E8D /* README.md */,
+				7B4A745C1C66A7C41FE211AAC3420C3A /* GCTPhotosPicker.framework */,
+				E04F34C7A7FBB50DB1131F50B0210EDB /* GCTPhotosPickerAsset.bundle */,
+				831C11B6938774A94837A4693189632D /* Pods_GCTPhotosPickerDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7334591FD4565E7A0A39A2357BF9E47E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F66FF83177987BA049E7D7FD5988174E /* GCTPhotosPicker.podspec */,
+				EBA7607AF8FC83166D9890B22A684236 /* LICENSE */,
+				1E0E9443E083A2BC84A279505A2A80DB /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		74C50E50B8132C257AF533A671758EF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18302A548F5B0E056E3689B9FC6C67D3 /* GCTPhotosPicker.modulemap */,
+				C38063D01B4561522200F8EF5BDFF83C /* GCTPhotosPicker.xcconfig */,
+				F609D1B679183F982A483E418FD33880 /* GCTPhotosPicker-dummy.m */,
+				A79F429FD0531F956FAB3402C4713903 /* GCTPhotosPicker-prefix.pch */,
+				CA5CE8D39E0AD9B520E75E2B3F619182 /* GCTPhotosPicker-umbrella.h */,
+				3C4C04AF1613E7B5A7041B29E06603C7 /* Info.plist */,
+				BDBF7B7461E5E5B6B243586048E80435 /* ResourceBundle-GCTPhotosPickerAsset-Info.plist */,
+			);
+			name = "Support Files";
+			path = "GCTPhotosPickerDemo/Pods/Target Support Files/GCTPhotosPicker";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -139,7 +189,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				83226566BA35848B210AC49F7B541599 /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				843F5A04872964C6A499673E54CA1BB3 /* Products */,
+				22C0BA1B2F74D51550BCE5F99A8A2340 /* Products */,
 				9FF5B9367A4242B89AAAE9ED27ACD06F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -147,47 +197,9 @@
 		83226566BA35848B210AC49F7B541599 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				851252E923DF7EE561F5670987A1C4EC /* GCTPhotosPicker */,
+				FF0DDD4218CADD570289E528890E3F20 /* GCTPhotosPicker */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		843F5A04872964C6A499673E54CA1BB3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B72604B35AA9B6CB26DFB56AB935285 /* GCTPhotosPicker.framework */,
-				C9C78670DF04A03ADC2812AEC49AA75C /* Pods_GCTPhotosPickerDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		851252E923DF7EE561F5670987A1C4EC /* GCTPhotosPicker */ = {
-			isa = PBXGroup;
-			children = (
-				1927A57C804FD29F4543FE37EF61A6EB /* GCTPhotosPicker.h */,
-				6FFBB8D5CB3B8966E30A1AD1EB4C79CB /* GCTPhotosPickerActivityView.h */,
-				A665A0AE849C4C5557EF11E28E1342A1 /* GCTPhotosPickerActivityView.m */,
-				E92B68AAB07D46FE5C522C39A33C01F9 /* GCTPhotosPickerAlbum.h */,
-				BF8AE0AD3FA13270BB5F9D351B0A125D /* GCTPhotosPickerAlbum.m */,
-				016FFF2715AC74328B8F53B9390FF2E0 /* GCTPhotosPickerAlbumsCell.h */,
-				7B0773352F95F4F4458058AF0C45A5F8 /* GCTPhotosPickerAlbumsCell.m */,
-				4A5FA8FA8AF057AF64152AC7D7EFD29E /* GCTPhotosPickerAlbumsView.h */,
-				1C8E5EABE76E55BCEBF49D1F3840DB96 /* GCTPhotosPickerAlbumsView.m */,
-				68588C85B048D0CA1F0AD48F56A8AD30 /* GCTPhotosPickerAppearance.h */,
-				08CE96B1294AD8788E6F051AA7377AAA /* GCTPhotosPickerAppearance.m */,
-				254D29C0D5D9A1F0803C6F09BCC42D87 /* GCTPhotosPickerCachingImageManager.h */,
-				13360B1639273E29D23B1E3C12882D58 /* GCTPhotosPickerCachingImageManager.m */,
-				D3B5843D4A909E71B067C57DC46B7A6C /* GCTPhotosPickerItemCell.h */,
-				420BACF23D3DCF88785D647559A39C2C /* GCTPhotosPickerItemCell.m */,
-				34E128A8262D6635B082185DA8ECFC3B /* GCTPhotosPickerItemCell_Extension.h */,
-				40B074167F983719077451B762D4CC7E /* GCTPhotosPickerViewController.h */,
-				328A0788DC3C31C4510597004EE01045 /* GCTPhotosPickerViewController.m */,
-				5992D17802EA38288B0C53B800A0906A /* Pod */,
-				DD068A7C1BDC58D5D2B847CA978990A7 /* Resources */,
-				C001E861B86E08E5DDAAB3BD5803F093 /* Support Files */,
-			);
-			name = GCTPhotosPicker;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9EFA3F5A4484B397B4ED6B7F86D1C6F4 /* iOS */ = {
@@ -226,46 +238,53 @@
 			path = "Target Support Files/Pods-GCTPhotosPickerDemo";
 			sourceTree = "<group>";
 		};
-		C001E861B86E08E5DDAAB3BD5803F093 /* Support Files */ = {
+		FF0DDD4218CADD570289E528890E3F20 /* GCTPhotosPicker */ = {
 			isa = PBXGroup;
 			children = (
-				751377E1FAE26D3AF1C8276AB89FCD0A /* GCTPhotosPicker.modulemap */,
-				69BC1B18B7E523C8155DD084552D581A /* GCTPhotosPicker.xcconfig */,
-				BA6CA766A0A2DDB98146C60B4C12D145 /* GCTPhotosPicker-dummy.m */,
-				D291FECF7363328D3161CB0FD0E2A490 /* GCTPhotosPicker-prefix.pch */,
-				46A90D792B6CA8B821D63396D7DEA545 /* GCTPhotosPicker-umbrella.h */,
-				41D7C065F456764B50B4F1EDD3B9CB85 /* Info.plist */,
+				1FB55CFEF6EBD435A1F253FB42913F1F /* GCTPhotosPicker.h */,
+				6289D00A4E414BF596001BE7A0C14D61 /* GCTPhotosPickerActivityView.h */,
+				6BA1730E9957D20FEB629681AF5519ED /* GCTPhotosPickerActivityView.m */,
+				3101A62F601C89BE2B249FBBAD15D5CE /* GCTPhotosPickerAlbum.h */,
+				2929164A06E21882E8FEC40FDFE22B21 /* GCTPhotosPickerAlbum.m */,
+				BEC56994B08AC45BF9D1B67E72C07FBA /* GCTPhotosPickerAlbumsCell.h */,
+				2625621DA7DFBA44EEF435665DC7708C /* GCTPhotosPickerAlbumsCell.m */,
+				A49268B71849E183AA4B1701CF6C260F /* GCTPhotosPickerAlbumsView.h */,
+				F7A8AC561C5D747725E51039BE2F3BA4 /* GCTPhotosPickerAlbumsView.m */,
+				03748262DAC7CEE4B416ABD84B3A2987 /* GCTPhotosPickerAppearance.h */,
+				C6EE354CC852470B74FC873B06CCC153 /* GCTPhotosPickerAppearance.m */,
+				CDDD0988A5162BE8DE24FA9939E695AE /* GCTPhotosPickerCachingImageManager.h */,
+				4059A921D0AAC52CD19E9627AD998A4B /* GCTPhotosPickerCachingImageManager.m */,
+				B40F9D0EABC58CBA60CB5BB9047FAB21 /* GCTPhotosPickerItemCell.h */,
+				07C150076A5808FA58BD80DDCCD19CFA /* GCTPhotosPickerItemCell.m */,
+				4E9DD4C731F31C0F6D18A6F493999746 /* GCTPhotosPickerItemCell_Extension.h */,
+				4258FE8ED0403C006BF77CF84A8DF50E /* GCTPhotosPickerViewController.h */,
+				9C22722DC0BC6DCBA4DB37F276F3B227 /* GCTPhotosPickerViewController.m */,
+				7334591FD4565E7A0A39A2357BF9E47E /* Pod */,
+				0BA9775F347128F6FC3B750EBD7215D9 /* Resources */,
+				74C50E50B8132C257AF533A671758EF7 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "GCTPhotosPickerDemo/Pods/Target Support Files/GCTPhotosPicker";
-			sourceTree = "<group>";
-		};
-		DD068A7C1BDC58D5D2B847CA978990A7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				864DD0B789C74B68E0BB65F36AE36716 /* GCTPhotosPicker.bundle */,
-			);
-			name = Resources;
+			name = GCTPhotosPicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03401309D8D9E9F2C7855962B569EE4E /* Headers */ = {
+		14DCB1FA09F8E157DB2812884EE78AD8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4A88768E57070F13FAD45B1B16066B /* GCTPhotosPicker-umbrella.h in Headers */,
-				EBB9E4B7EE9F1CB83AE04E21663FD66F /* GCTPhotosPicker.h in Headers */,
-				B3D3AD6F5182E937102A97543AAA8CAE /* GCTPhotosPickerActivityView.h in Headers */,
-				F2345F4E9E7F4055C1C4CBC6B6FA9924 /* GCTPhotosPickerAlbum.h in Headers */,
-				C8D3A909F1DBE7B38141BAF6BE2AB3BB /* GCTPhotosPickerAlbumsCell.h in Headers */,
-				7862BC995ABF8AD73463205AD285FBFD /* GCTPhotosPickerAlbumsView.h in Headers */,
-				98FB3CC475B27520AD9EF0A3E12135F8 /* GCTPhotosPickerAppearance.h in Headers */,
-				67C60C824BF9C69473EEFA98861CBC24 /* GCTPhotosPickerCachingImageManager.h in Headers */,
-				B481C643D0C30AC82B7FFC3AC90DC9F4 /* GCTPhotosPickerItemCell.h in Headers */,
-				FC14086BB04708C0442BE9A0DB43611E /* GCTPhotosPickerItemCell_Extension.h in Headers */,
-				C9A92AB6D0E4C3A414070B9FEB7285F0 /* GCTPhotosPickerViewController.h in Headers */,
+				C4B5EA427AC57A535D8347A5E2AF52A1 /* GCTPhotosPicker-umbrella.h in Headers */,
+				8B998C5B6F1F01CC016F9D485BDD1A40 /* GCTPhotosPicker.h in Headers */,
+				917A74740213CB368132E5BFE986C692 /* GCTPhotosPickerActivityView.h in Headers */,
+				C330571C0C3A0E9885E7CF524F797A48 /* GCTPhotosPickerAlbum.h in Headers */,
+				999E95B00630A2A4297B1F794F769890 /* GCTPhotosPickerAlbumsCell.h in Headers */,
+				57E773613C45423734831E76CCA8E4FD /* GCTPhotosPickerAlbumsView.h in Headers */,
+				FD066CAA8E5F31092983DFC76958699E /* GCTPhotosPickerAppearance.h in Headers */,
+				0A503C2A91DB5C85B8801D1AC2ECF91A /* GCTPhotosPickerCachingImageManager.h in Headers */,
+				D38A1BA293A444986321AC341881583F /* GCTPhotosPickerItemCell.h in Headers */,
+				B1610DEE1AACF7CBF0E86784342C2B40 /* GCTPhotosPickerItemCell_Extension.h in Headers */,
+				0731C494071029916E2FD4816BC981A6 /* GCTPhotosPickerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +299,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0D66E0A848262EBE074CA4985E6ECE8D /* GCTPhotosPicker-GCTPhotosPickerAsset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A897FECA1898F9D26E60809B88D8FCA8 /* Build configuration list for PBXNativeTarget "GCTPhotosPicker-GCTPhotosPickerAsset" */;
+			buildPhases = (
+				9EF42070720FCC79467839A3138B1A57 /* Sources */,
+				40C0654026107C91DAB9235438DB1F61 /* Frameworks */,
+				33A3A9D3B0B4584482C4069610CE4273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GCTPhotosPicker-GCTPhotosPickerAsset";
+			productName = "GCTPhotosPicker-GCTPhotosPickerAsset";
+			productReference = E04F34C7A7FBB50DB1131F50B0210EDB /* GCTPhotosPickerAsset.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		5927E0A439B3641B7FC1ED97CB682907 /* Pods-GCTPhotosPickerDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60084F8BE44E13B650335B5D8EA5F99D /* Build configuration list for PBXNativeTarget "Pods-GCTPhotosPickerDemo" */;
@@ -295,25 +331,26 @@
 			);
 			name = "Pods-GCTPhotosPickerDemo";
 			productName = "Pods-GCTPhotosPickerDemo";
-			productReference = C9C78670DF04A03ADC2812AEC49AA75C /* Pods_GCTPhotosPickerDemo.framework */;
+			productReference = 831C11B6938774A94837A4693189632D /* Pods_GCTPhotosPickerDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DDE617B87464C3636821234B84F4C602 /* GCTPhotosPicker */ = {
+		86C84105F94C37C8E39917AD7FB6F868 /* GCTPhotosPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A3D827E45C174B392BB3B9C6C13111E /* Build configuration list for PBXNativeTarget "GCTPhotosPicker" */;
+			buildConfigurationList = 63DC811FAB1D88186DDCC304CF082195 /* Build configuration list for PBXNativeTarget "GCTPhotosPicker" */;
 			buildPhases = (
-				F0B839228908726BCFBA830703AEDD7B /* Sources */,
-				072D46459D96CCE15736FDA3DDA55B1B /* Frameworks */,
-				03401309D8D9E9F2C7855962B569EE4E /* Headers */,
-				2E62726EBC80D97948732808DA728B96 /* Resources */,
+				92F9A1F1B9167CFFDB33FCCB22517086 /* Sources */,
+				19C5EE3C61788E49B0F063C2265D9E1F /* Frameworks */,
+				A033ADE4766AA2CE9F38774CC26E85AD /* Resources */,
+				14DCB1FA09F8E157DB2812884EE78AD8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CB6292A18D640073A617385119C731C9 /* PBXTargetDependency */,
 			);
 			name = GCTPhotosPicker;
 			productName = GCTPhotosPicker;
-			productReference = 1B72604B35AA9B6CB26DFB56AB935285 /* GCTPhotosPicker.framework */;
+			productReference = 7B4A745C1C66A7C41FE211AAC3420C3A /* GCTPhotosPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -333,22 +370,31 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 843F5A04872964C6A499673E54CA1BB3 /* Products */;
+			productRefGroup = 22C0BA1B2F74D51550BCE5F99A8A2340 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDE617B87464C3636821234B84F4C602 /* GCTPhotosPicker */,
+				86C84105F94C37C8E39917AD7FB6F868 /* GCTPhotosPicker */,
+				0D66E0A848262EBE074CA4985E6ECE8D /* GCTPhotosPicker-GCTPhotosPickerAsset */,
 				5927E0A439B3641B7FC1ED97CB682907 /* Pods-GCTPhotosPickerDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E62726EBC80D97948732808DA728B96 /* Resources */ = {
+		33A3A9D3B0B4584482C4069610CE4273 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBDD75890E7CAF01742B0D5DB41239C4 /* GCTPhotosPicker.bundle in Resources */,
+				0DFF4F6D7991B051B307C0CC88DBA761 /* GCTPhotosPicker.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A033ADE4766AA2CE9F38774CC26E85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F4CB65DB8B6CEAA1715220D8A6F968 /* GCTPhotosPickerAsset.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,19 +409,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B839228908726BCFBA830703AEDD7B /* Sources */ = {
+		92F9A1F1B9167CFFDB33FCCB22517086 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64A6ECDAD5D4B6F208460056688BF402 /* GCTPhotosPicker-dummy.m in Sources */,
-				7E78D1084C0C2E2EAB0CA3979A70FBDE /* GCTPhotosPickerActivityView.m in Sources */,
-				311AD7B4D0497E0524A306C7FEAF7C4F /* GCTPhotosPickerAlbum.m in Sources */,
-				D6F66FECDA7CCEB2D11B00D2BA681922 /* GCTPhotosPickerAlbumsCell.m in Sources */,
-				FECEFBF126B0A71FA8537FDBEF04415E /* GCTPhotosPickerAlbumsView.m in Sources */,
-				7E7D0EB781127D53939E43266601F7E7 /* GCTPhotosPickerAppearance.m in Sources */,
-				D612D0487500A0020442467F7E778214 /* GCTPhotosPickerCachingImageManager.m in Sources */,
-				E134631F11C218D12868552399D99539 /* GCTPhotosPickerItemCell.m in Sources */,
-				591F5F5B2630CEFA9D44872AFB6AE5DF /* GCTPhotosPickerViewController.m in Sources */,
+				6DFBCD52FA36CAD1D04B166D84698385 /* GCTPhotosPicker-dummy.m in Sources */,
+				65BBDD439C4F11EE65230D68AAA3408B /* GCTPhotosPickerActivityView.m in Sources */,
+				CFDDD7449213E4BEE357D4EF7A87EC2D /* GCTPhotosPickerAlbum.m in Sources */,
+				4E434D5FEB329965309A2AB5D8753179 /* GCTPhotosPickerAlbumsCell.m in Sources */,
+				D86EE5717D7EA13A2F895FE8666F1D43 /* GCTPhotosPickerAlbumsView.m in Sources */,
+				330154182FA94B4C591D25582B867DDC /* GCTPhotosPickerAppearance.m in Sources */,
+				FBDEFDF4D4D33DA33A5772B3A132B87A /* GCTPhotosPickerCachingImageManager.m in Sources */,
+				B1CC4ECC8FB69ED0C1C68C32CEF6A804 /* GCTPhotosPickerItemCell.m in Sources */,
+				497879F0713C30F14811EAAEDB1F2CAE /* GCTPhotosPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF42070720FCC79467839A3138B1A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,42 +438,18 @@
 		3FD670AF82E01B8BE9B2A8460685A18C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GCTPhotosPicker;
-			target = DDE617B87464C3636821234B84F4C602 /* GCTPhotosPicker */;
+			target = 86C84105F94C37C8E39917AD7FB6F868 /* GCTPhotosPicker */;
 			targetProxy = A3D53BFCAE9966BB76980C5CDB05797F /* PBXContainerItemProxy */;
+		};
+		CB6292A18D640073A617385119C731C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GCTPhotosPicker-GCTPhotosPickerAsset";
+			target = 0D66E0A848262EBE074CA4985E6ECE8D /* GCTPhotosPicker-GCTPhotosPickerAsset */;
+			targetProxy = 1189CEC4893C17B4AF7542AE82ACFEFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C66A7D572428418AE98CC62C06F4CCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BC1B18B7E523C8155DD084552D581A /* GCTPhotosPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GCTPhotosPicker/GCTPhotosPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GCTPhotosPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GCTPhotosPicker/GCTPhotosPicker.modulemap";
-				PRODUCT_NAME = GCTPhotosPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -478,6 +507,51 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		4A9E7776F886C1C7BA6DC5F844FF8B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38063D01B4561522200F8EF5BDFF83C /* GCTPhotosPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GCTPhotosPicker";
+				INFOPLIST_FILE = "Target Support Files/GCTPhotosPicker/ResourceBundle-GCTPhotosPickerAsset-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GCTPhotosPickerAsset;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		593108F2F108A0E70E0092FD12FAC95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38063D01B4561522200F8EF5BDFF83C /* GCTPhotosPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCTPhotosPicker/GCTPhotosPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCTPhotosPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCTPhotosPicker/GCTPhotosPicker.modulemap";
+				PRODUCT_NAME = GCTPhotosPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6F8FE29E5BEC78FB008C734D2A419AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -544,9 +618,9 @@
 			};
 			name = Release;
 		};
-		C854CD4C5E0BF79C2148A40B4FD44425 /* Debug */ = {
+		799694F400203EF9B6C77F6FB86D0200 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BC1B18B7E523C8155DD084552D581A /* GCTPhotosPicker.xcconfig */;
+			baseConfigurationReference = C38063D01B4561522200F8EF5BDFF83C /* GCTPhotosPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,10 +642,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -636,18 +711,25 @@
 			};
 			name = Debug;
 		};
+		E5924D1E3FC453DF6D881633016A93F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38063D01B4561522200F8EF5BDFF83C /* GCTPhotosPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GCTPhotosPicker";
+				INFOPLIST_FILE = "Target Support Files/GCTPhotosPicker/ResourceBundle-GCTPhotosPickerAsset-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GCTPhotosPickerAsset;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A3D827E45C174B392BB3B9C6C13111E /* Build configuration list for PBXNativeTarget "GCTPhotosPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C854CD4C5E0BF79C2148A40B4FD44425 /* Debug */,
-				0C66A7D572428418AE98CC62C06F4CCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -662,6 +744,24 @@
 			buildConfigurations = (
 				6F8FE29E5BEC78FB008C734D2A419AEA /* Debug */,
 				726E9C89543FA7B4803901E255B31948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DC811FAB1D88186DDCC304CF082195 /* Build configuration list for PBXNativeTarget "GCTPhotosPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593108F2F108A0E70E0092FD12FAC95B /* Debug */,
+				799694F400203EF9B6C77F6FB86D0200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A897FECA1898F9D26E60809B88D8FCA8 /* Build configuration list for PBXNativeTarget "GCTPhotosPicker-GCTPhotosPickerAsset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5924D1E3FC453DF6D881633016A93F1 /* Debug */,
+				4A9E7776F886C1C7BA6DC5F844FF8B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

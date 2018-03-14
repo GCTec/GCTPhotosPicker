@@ -414,16 +414,8 @@
 - (UIButton *)selectedButton {
     if (!_selectedButton) {
         _selectedButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        
-        NSString *bundlePath = [[NSBundle bundleForClass:self.class] pathForResource:@"GCTPhotosPicker" ofType:@"bundle"];
-        NSString *selectedpath = [bundlePath stringByAppendingPathComponent:@"gct_photos_picker_item_selected@3x"];;
-        UIImage *selectedImage = [UIImage imageWithContentsOfFile:selectedpath];
-        
-        NSString *normaldpath = [bundlePath stringByAppendingPathComponent:@"gct_photos_picker_item_unSelected@3x"];;
-        UIImage *normalImage = [UIImage imageWithContentsOfFile:normaldpath];
-        
-        [_selectedButton setImage:selectedImage forState:UIControlStateSelected];
-        [_selectedButton setImage:normalImage forState:UIControlStateNormal];
+        [_selectedButton setImage:[GCTPhotosPickerAppearance appearance].selectedImage forState:UIControlStateSelected];
+        [_selectedButton setImage:[GCTPhotosPickerAppearance appearance].unSelectedImage forState:UIControlStateNormal];
         [_selectedButton addTarget:self action:@selector(selectedButtonClicked) forControlEvents:UIControlEventTouchUpInside];
         
     }
@@ -470,6 +462,8 @@
     self.selectedIndexNumberLabel.layer.borderColor = self.itemAppearance.selectedIndexNumberBadgeBackgroundColor.CGColor;
     self.selectedIndexNumberLabel.clipsToBounds = YES;
     
+    [self.selectedButton setImage:itemAppearance.selectedImage forState:UIControlStateSelected];
+    [self.selectedButton setImage:itemAppearance.unSelectedImage forState:UIControlStateNormal];
     switch (self.selectedindexNumberPosition) {
         case GCTPhotosPickerBadgePositionLeftTop:
             self.selectedIndexNumberLabel.frame = CGRectMake(15, 15, 0, 0);
