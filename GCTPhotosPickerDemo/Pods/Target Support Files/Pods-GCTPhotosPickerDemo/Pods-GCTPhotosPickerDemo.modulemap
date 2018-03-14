@@ -1,0 +1,6 @@
+framework module Pods_GCTPhotosPickerDemo {
+  umbrella header "Pods-GCTPhotosPickerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

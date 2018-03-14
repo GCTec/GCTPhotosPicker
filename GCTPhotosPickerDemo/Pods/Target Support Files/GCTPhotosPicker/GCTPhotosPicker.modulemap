@@ -1,0 +1,6 @@
+framework module GCTPhotosPicker {
+  umbrella header "GCTPhotosPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
