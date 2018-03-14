@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/GCTec/GCTPhotosPicker"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "Later" => "lshxin89@126.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/GCTec/GCTPhotosPicker.git", :tag => s.version }
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.frameworks = 'UIKit', 'Foundation','Photos'
