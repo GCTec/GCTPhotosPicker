@@ -83,6 +83,9 @@
         self.albumCellPickingAssetsCountBackgroundColor = appearance.albumCellPickingAssetsCountBackgroundColor;
         self.albumCellPickingAssetsCountCornerRadius = appearance.albumCellPickingAssetsCountCornerRadius;
         self.albumsViewAnimation = appearance.albumsViewAnimation;
+        self.topDropdownImage = appearance.topDropdownImage;
+        self.selectedImage = appearance.selectedImage;
+        self.unSelectedImage = appearance.unSelectedImage;
 
     }
     return self;
@@ -219,6 +222,17 @@
     appearance.albumCellPickingAssetsCountBackgroundColor = [UIColor colorWithRed:85.f/255 green:171.f/255 blue:228.f/255 alpha:1];
     appearance.albumCellPickingAssetsCountCornerRadius = 10;
     appearance.albumsViewAnimation = GCTPhotosPickerAlbumsViewAnimationDrop;
+    
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"GCTPhotosPickerAsset.bundle"];
+    NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
+    UIImage *topDropdownImage = [UIImage imageNamed:@"gct_photos_picker_arrow_upload" inBundle:resource_bundle compatibleWithTraitCollection:nil];
+    
+    UIImage *selectImage = [UIImage imageNamed:@"gct_photos_picker_item_selected" inBundle:resource_bundle compatibleWithTraitCollection:nil];
+    UIImage *unSelectImage = [UIImage imageNamed:@"gct_photos_picker_item_unSelected" inBundle:resource_bundle compatibleWithTraitCollection:nil];
+
+    appearance.topDropdownImage = topDropdownImage;
+    appearance.selectedImage = selectImage;
+    appearance.unSelectedImage = unSelectImage;
 }
 
 

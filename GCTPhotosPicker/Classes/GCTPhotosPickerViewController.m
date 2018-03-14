@@ -835,10 +835,7 @@ static NSString *const kGCTAlertAlertGotIt = @"知道了";
 }
 - (UIImageView *)arrowImageView {
     if (!_arrowImageView) {
-        NSString *bundlePath = [[NSBundle bundleForClass:self.class] pathForResource:@"GCTPhotosPicker" ofType:@"bundle"];
-        NSString *path = [bundlePath stringByAppendingPathComponent:@"gct_photos_picker_arrow_upload@3x"];;
-        UIImage *image = [UIImage imageWithContentsOfFile:path];
-        _arrowImageView = [[UIImageView alloc] initWithImage:image];;
+        _arrowImageView = [[UIImageView alloc] initWithImage:self.appearance.topDropdownImage];;
     }
     return _arrowImageView;
 }

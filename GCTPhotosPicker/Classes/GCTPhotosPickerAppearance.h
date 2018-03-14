@@ -370,4 +370,19 @@ typedef NS_ENUM(NSInteger, GCTPhotosPickerHeaderBottomLineStyle) {
  默认：GCTPhotosPickerAlbumsViewAnimationDrop
  */
 @property (nonatomic, assign) GCTPhotosPickerAlbumsViewAnimation albumsViewAnimation UI_APPEARANCE_SELECTOR;
+
+/**
+ navigationBar 顶部下拉三角箭头图片资源
+ */
+@property (nonatomic, strong) UIImage *topDropdownImage UI_APPEARANCE_SELECTOR;
+
+/**
+ cell 标识图片选中 icon 资源
+ */
+@property (nonatomic, strong) UIImage *selectedImage UI_APPEARANCE_SELECTOR;
+
+/**
+ cell 标识图片未选中 icon 资源
+ */
+@property (nonatomic, strong) UIImage *unSelectedImage UI_APPEARANCE_SELECTOR;
 @end

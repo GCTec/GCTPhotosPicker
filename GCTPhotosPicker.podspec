@@ -20,5 +20,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'GCTPhotosPicker/Classes/*.h'
   s.source_files = 'GCTPhotosPicker/Classes/*.{h,m}'
-  s.resource = "GCTPhotosPicker/Resource/*.bundle"
+  s.resource_bundles = {
+    "GCTPhotosPickerAsset" => "GCTPhotosPicker/Resource/*.xcassets"
+  }
 end
